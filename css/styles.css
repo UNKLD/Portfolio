@@ -100,7 +100,7 @@ hr {
 }
 .close {
   position: absolute;
-  width: 10%;
+  width: 25%;
   right: 1em;
   top: 1.3em;
   cursor: pointer;
@@ -210,7 +210,7 @@ footer a:hover {
   color: #00fca8;
 }
 
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .nav-menu {
     display: none;
   }
@@ -226,7 +226,7 @@ footer a:hover {
     font-size: 1rem;
   }
 }
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   h1 {
     font-size: 2em;
   }
@@ -254,5 +254,9 @@ footer a:hover {
   }
   #contact p {
     width: 50vw;
+  }
+  .scroll-up {
+    width: 2rem;
+    height: 2rem;
   }
 }
