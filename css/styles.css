@@ -1,0 +1,258 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  font-family: sans-serif;
+  background-color: #d2fcee;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #00fca8;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 2.3rem;
+}
+hr {
+  background-color: unset;
+  border-top: #98f7d7 10px dotted;
+  border-left: unset;
+  border-right: unset;
+  width: 5rem;
+  margin: 2em auto 3em;
+}
+
+.scroll-up {
+  position: fixed;
+  display: none;
+  bottom: 2em;
+  right: 2em;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #d2fcee;
+}
+
+/* Header Styles */
+
+.logo {
+  margin-top: 1em;
+}
+.navbar {
+  display: flex;
+  background-color: #d2fcee;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 11vh;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav-link {
+  font-weight: 530;
+}
+.nav-link a:hover {
+  color: #30ad84;
+}
+.menu-icon {
+  display: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.mobile-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: #d2fcee;
+  width: 0%;
+  right: 0;
+  top: 0%;
+  height: 100%;
+  transition: 0.5s;
+}
+.mobile-menu ul {
+  list-style: none;
+  padding-left: 5%;
+  margin-top: 5em;
+}
+
+.mobile-menu li {
+  padding-top: 1.2em;
+  font-size: larger;
+  font-weight: bold;
+}
+.close {
+  position: absolute;
+  width: 10%;
+  right: 1em;
+  top: 1.3em;
+  cursor: pointer;
+}
+.avatar {
+  background-color: #d2fcee;
+  border-radius: 100%;
+}
+/* Intro Section styles */
+#intro {
+  text-align: center;
+}
+
+.title {
+  font-family: "Sacramento", cursive;
+  font-size: 5.8rem;
+  margin: 0;
+}
+
+.sub-title {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 0;
+  color: #00000090;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.p-anim {
+  width: 30em;
+  height: 25em;
+}
+
+/* About Section styles */
+#about {
+  margin: 2em 0 5em;
+  text-align: center;
+}
+
+#about p {
+  width: 25em;
+  margin: 0.3em auto 0;
+  font-size: 1.2rem;
+}
+
+/* Services Section */
+#sevices > h1 {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5em;
+}
+.reverse {
+  flex-direction: row-reverse;
+  text-align: end;
+}
+.card-img {
+  border-radius: 100%;
+  width: 9.3rem;
+  height: 9rem;
+}
+.card-info {
+  text-align: start;
+}
+.card-desc {
+  width: 22em;
+  font-size: 1.1rem;
+}
+
+/* contact section styles */
+
+#contact {
+  margin: 0em auto 2em;
+  text-align: center;
+}
+
+#contact p {
+  width: 25em;
+  margin: 0.3em auto 0;
+  font-size: 1.1rem;
+  margin-bottom: 2.5em;
+}
+.e-btn {
+  background-color: #98f7d7;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 15px;
+  border-style: unset;
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin: 6em 0 0;
+}
+footer a {
+  margin: 0.5em 0.5em 0;
+}
+footer a:hover {
+  color: #00fca8;
+}
+
+@media (max-width: 900px) {
+  .nav-menu {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .title {
+    margin-top: 1.4em;
+  }
+  #about p {
+    width: 50vw;
+    margin: 0.3em auto 0;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .p-anim {
+    width: 95vw;
+  }
+  .card {
+    flex-direction: column;
+    width: auto;
+  }
+  .card-desc {
+    width: 50vw;
+    text-align: center;
+  }
+  .card-info {
+    text-align: center;
+  }
+  #contact p {
+    width: 50vw;
+  }
+}
