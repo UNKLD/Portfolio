@@ -25,10 +25,7 @@ h1 {
   font-size: 2.3rem;
 }
 hr {
-  background-color: unset;
   border-top: #98f7d7 10px dotted;
-  border-left: unset;
-  border-right: unset;
   width: 5rem;
   margin: 2em auto 3em;
 }
@@ -65,7 +62,7 @@ hr {
 }
 
 .nav-link {
-  font-weight: 530;
+  font-weight: 500;
 }
 .nav-link a:hover {
   color: #30ad84;
@@ -81,9 +78,9 @@ hr {
   display: flex;
   flex-direction: column;
   background-color: #d2fcee;
-  width: 0%;
+  width: 0;
   right: 0;
-  top: 0%;
+  top: 0;
   height: 100%;
   transition: 0.5s;
 }
