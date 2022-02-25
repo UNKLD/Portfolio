@@ -5,6 +5,7 @@ html {
 body {
   font-family: sans-serif;
   background-color: #d2fcee;
+  text-align: center;
 }
 body::-webkit-scrollbar {
   width: 0.6rem;
@@ -20,7 +21,7 @@ body::-webkit-scrollbar-thumb {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #00000097;
 }
 h1 {
   font-size: 2.3rem;
@@ -98,6 +99,9 @@ hr {
   font-size: larger;
   font-weight: bold;
 }
+.mobile-menu a {
+  color: black;
+}
 .close {
   position: absolute;
   width: 25%;
@@ -110,9 +114,6 @@ hr {
   border-radius: 100%;
 }
 /* Intro Section styles */
-#intro {
-  text-align: center;
-}
 
 .title {
   font-family: "Sacramento", cursive;
@@ -121,7 +122,7 @@ hr {
 }
 
 .sub-title {
-  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
   margin-top: 0;
   color: #00000090;
 }
@@ -131,13 +132,11 @@ hr {
 
 .p-anim {
   width: 30em;
-  height: 25em;
 }
 
 /* About Section styles */
 #about {
   margin: 2em 0 5em;
-  text-align: center;
 }
 
 #about p {
@@ -147,9 +146,6 @@ hr {
 }
 
 /* Services Section */
-#sevices > h1 {
-  text-align: center;
-}
 
 .card {
   display: flex;
@@ -157,6 +153,7 @@ hr {
   justify-content: center;
   gap: 2rem;
   margin-top: 5em;
+  text-align: start;
 }
 .reverse {
   flex-direction: row-reverse;
@@ -164,9 +161,6 @@ hr {
 }
 .card-img {
   width: 8.2rem;
-}
-.card-info {
-  text-align: start;
 }
 .card-desc {
   width: 22em;
@@ -177,7 +171,6 @@ hr {
 
 #contact {
   margin: 0em auto 2em;
-  text-align: center;
 }
 
 #contact p {
@@ -188,9 +181,9 @@ hr {
 }
 .e-btn {
   background-color: #98f7d7;
-  padding: 15px;
-  font-size: 18px;
-  border-radius: 15px;
+  padding: 1em 1.2em;
+  font-size: 1.2rem;
+  border-radius: 1em;
   border-style: unset;
   cursor: pointer;
   margin-bottom: 2em;
@@ -198,7 +191,6 @@ hr {
 
 /* Footer styles */
 footer {
-  text-align: center;
   margin: 6em 0 0;
 }
 footer a {
@@ -215,24 +207,23 @@ footer a:hover {
   .menu-icon {
     display: block;
   }
+  .close {
+    width: 15%;
+  }
   .title {
     margin-top: 1.4em;
   }
   #about p {
-    width: 75vw;
+    width: 70vw;
     margin: 0.3em auto 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 2em;
   }
-  h1,
-  h2,
-  h3 {
-    text-align: center;
-  }
+
   .title {
     font-size: 3rem;
   }
@@ -244,10 +235,10 @@ footer a:hover {
     text-align: center;
   }
   .card-desc {
-    max-width: 75vw;
+    max-width: 70vw;
   }
   #contact p {
-    width: 80vw;
+    width: 75vw;
   }
   .scroll-up {
     bottom: 5em;
