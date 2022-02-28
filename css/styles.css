@@ -204,6 +204,9 @@ footer a:hover {
   .nav-menu {
     display: none;
   }
+  .mobile-menu {
+    text-align: start;
+  }
   .menu-icon {
     display: block;
   }
