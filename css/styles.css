@@ -180,13 +180,18 @@ hr {
   margin-bottom: 2.5em;
 }
 .e-btn {
-  background-color: #98f7d7;
+  background-color: #10d594;
   padding: 1em 1.2em;
   font-size: 1.2rem;
   border-radius: 1em;
   border-style: unset;
   cursor: pointer;
   margin-bottom: 2em;
+}
+
+.e-btn a{
+  color: white;
+
 }
 
 /* Footer styles */
