@@ -1,0 +1,47 @@
+.p-list {
+  margin: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3.3rem;
+}
+.p-card {
+  border-radius: 0.55rem;
+  overflow: hidden;
+  background-color: white;
+}
+.p-card img {
+  max-height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.p-card-info {
+  display: none;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.p-card-info a {
+  display: block;
+  color: blue;
+  padding: 0 0 0.5rem;
+}
+
+.p-card-body {
+  text-align: left;
+  padding: 0.6rem 1rem;
+}
+.p-card-body span {
+  font-size: x-large;
+  font-weight: bold;
+}
+.p-card-body p {
+  font-size: large;
+}
+
+@media screen AND (max-width: 750px) {
+  .p-list {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
