@@ -38,10 +38,10 @@
 
         <div class="nav-menu">
           <ul class="nav-links">
-            <li class="nav-link"><a href="/">Home</a></li>
-            <li class="nav-link"><a href="/#about">About</a></li>
-            <li class="nav-link"><a href="projects.html">Projects</a></li>
-            <li class="nav-link"><a href="/#contact">Contact</a></li>
+            <li class="nav-link"><a href="./">Home</a></li>
+            <li class="nav-link"><a href="./#about">About</a></li>
+            <li class="nav-link"><a href="./projects.html">Projects</a></li>
+            <li class="nav-link"><a href="./#contact">Contact</a></li>
           </ul>
         </div>
         <!-- Mobile navigation -->
@@ -66,30 +66,55 @@
       </div>
       <div class="p-list">
         <div class="p-card">
+          
           <img src="assets/images/blog.png" alt="seo-blog-site" />
           <div class="p-card-body">
-           <span>Card title</span>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illo?</p>
+           <span>Seo Blog</span>
+           <p>A multi user blog website made with Next.js and Node.js with Express and MongoDB</p>
+           <div class="p-card-info">
+            <a href="https://github.com/UNKLD/SeoBlogFrontEnd" target="_blank" rel="noopener noreferrer">GitHub link</a>
+            <a href="https://seo-blog-front-end.vercel.app/" target="_blank" rel="noopener noreferrer">Visit demo</a>
+          </div>
             </div>
+            
           </div>
 
           <div class="p-card">
           <img src="assets/images/todo.jpeg" alt="Todo App" />
           <div class="p-card-body">
-           <span>Card title</span>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illo?</p>
-            </div>
+           <span>Todo List App</span>
+           <p>A simple Todo-App that allows users to create their own custom Todo lists </p>
+          <div class="p-card-info">
+            <a href="https://github.com/UNKLD/SeoBlogFrontEnd" target="_blank" rel="noopener noreferrer">GitHub link</a>
+            <a href="https://seo-blog-front-end.vercel.app/" target="_blank" rel="noopener noreferrer">Visit demo</a>
+          </div>
+          </div>
           </div>
 
-          <div class="p-card">
-          <img src="assets/images/blog.jpeg" alt="seo-blog-site" />
+          <div class="p-card" style="display: flex;">
+          <img src="assets/images/parkit1.png" style="object-fit: unset; max-height: 20rem; width: 100%;" alt="seo-blog-site" />
           <div class="p-card-body">
-           <span>Card title</span>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illo?</p>
+           <span>ParkIt</span>
+           <p>A smart parking app built with Flutter and Dart</p>
+           <div class="p-card-info">
+            <a href="https://github.com/UNKLD/SeoBlogFrontEnd" target="_blank" rel="noopener noreferrer">GitHub link</a>
+            <a href="https://seo-blog-front-end.vercel.app/" target="_blank" rel="noopener noreferrer">Visit demo</a>
+          </div>
             </div>
           </div>
         </div>
       </div>
     </main>
+    <script src="app.js"></script>
+    <!-- <script>
+      let card = document.querySelectorAll(".p-card");
+      let info = document.querySelectorAll(".p-card-info");
+      card.forEach(c => c.addEventListener("mouseover", function(){
+        info.forEach(i => i.style.display="flex") 
+      }) );
+      card.addEventListener("mouseout", function(){
+        info.style.display="none"
+      })
+    </script> -->
   </body>
 </html>
