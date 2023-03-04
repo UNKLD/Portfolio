@@ -1,2 +1,2 @@
 # Portfolio
-My personal Pagez
+My personal Web page with inforormation about me
