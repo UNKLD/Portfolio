@@ -31,7 +31,7 @@ hr {
   border-left: 0;
   border-right: 0;
   width: 5rem;
-  margin: 2em auto 3em;
+  margin: 2em auto 2em;
 }
 
 .scroll-up {
@@ -195,7 +195,7 @@ hr {
 
 /* Footer styles */
 footer {
-  margin: 6em 0 0;
+  margin: 0;
 }
 footer a {
   margin: 0.5em 0.5em 0;

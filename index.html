@@ -26,7 +26,7 @@
   <body>
     <header id="home">
       <nav class="navbar">
-        <a class="logo" href="#about"
+        <a class="logo" href="#home"
           ><img
             class="avatar"
             src="assets/images/avatar.webp"
@@ -41,8 +41,7 @@
         <div class="nav-menu">
           <ul class="nav-links">
             <li class="nav-link"><a href="#home">Home</a></li>
-            <li class="nav-link"><a href="#about">About</a></li>
-            <li class="nav-link"><a href="projects.html">Projects</a></li>
+            <li class="nav-link"><a href="#projects">Projects</a></li>
             <li class="nav-link"><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -55,9 +54,8 @@
           />
           <ul>
             <li class="nav-link"><a tabindex="-1" href="#home">Home</a></li>
-            <li class="nav-link"><a tabindex="-1" href="#about">About</a></li>
             <li class="nav-link">
-              <a tabindex="-1" href="projects.html">Projects</a>
+              <a tabindex="-1" href="#projects">Projects</a>
             </li>
             <li class="nav-link">
               <a tabindex="-1" href="#contact">Contact</a>
@@ -77,8 +75,18 @@
     </div>
     <main class="main">
       <section id="intro">
-        <h1 class="title">I'm Leul</h1>
-        <h3 class="sub-title">Just a <span class="pro">pro</span>grammer...</h3>
+        <h1 class="title" style="margin-bottom: 15px">I'm Leul</h1>
+        <p
+          style="
+            font-size: 18px;
+            text-align: center;
+            margin: auto;
+            max-width: 450px;
+          "
+        >
+          I'm a Fullstack developer based in Addis Ababa, Ethiopia. I have a
+          passion for web design and love to create fo web and mobile devices.
+        </p>
         <div data-aos="fade">
           <img
             class="p-anim"
@@ -90,22 +98,8 @@
 
       <hr />
 
-      <section id="about">
-        <img
-          class="avatar"
-          src="assets/images/avatar.webp"
-          alt="Avatar Image"
-          width="150"
-        />
-        <h1>Hi.</h1>
-        <p>
-          I'm a web designer / developer based in Addis Ababa, Ethiopia. I have
-          a passion for web design and love to create fo web and mobile devices.
-        </p>
-      </section>
-      <hr />
       <section id="sevices">
-        <h1>What i can do.</h1>
+        <h1 style="font-size: 52px">What i can help with.</h1>
         <div class="card">
           <img
             class="card-img"
@@ -224,16 +218,23 @@
         <h2>
           Click
           <a
-            href="/projects.html"
-            style="text-decoration: underline; color: cadetblue"
+            href="https://www.github.com/unkld"
+            target="_blank"
+            style="
+              text-decoration: underline;
+              color: cadetblue;
+              margin-bottom: 20px;
+            "
             >here</a
           >
           for more
         </h2>
       </section>
 
+      <hr />
+
       <section id="contact">
-        <h1>I can help.</h1>
+        <h1 style="font-size: 48px">I can help.</h1>
         <h2>i'm currently available for hire.</h2>
         <p>
           If ou have a poject that you want to get started, think you need my
